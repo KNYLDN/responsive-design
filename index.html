@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patagonia</title>
+</head>
+<body>
+<main>
+    <div class="grid"></div>
+    <div class="patagonia_page">
+        <div class="patagonia-nav">
+            <div class="patagonia-header">
+                <header class="patagonia-logo">Head.</header>
+            </div>
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li><a class="nav-li" href="#">Works</a></li>
+                    <li><a class="nav-li" href="#">Services</a></li>
+                    <li><a class="nav-li" href="#">Contacts</a></li>
+                </ul>
+                <div class="dropdown">
+                    <svg width="16" height="4">
+                        <use xlink:href="images/Shape.svg#dotted"></use>
+                    </svg>
+                    <div class="dropdown-content">
+                        <a class="nav-li" href="#">Works</a>
+                        <a class="nav-li" href="#">Services</a>
+                        <a class="nav-li" href="#">Contacts</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="bottom-half">
+            <div class="patagonia-title-container">
+                <div class="patagonia-title-head">
+                    <header class="patagonia-title-header">Patagonia</header>
+                </div>
+                <div class="patagonia-title-para">
+                    <p class="patagonia-title-paragraph">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+                </div>
+            </div>
+
+            <div class="horses-divbox">
+                <picture class="horses_img">
+                    <source media="(max-width: 616px)" srcset="./images/horses-s.jpg">
+                    <source media="(max-width: 1000px)" srcset="./images/horses-m.jpg">
+                    <source media="(min-width: 1001px)" srcset="./images/horses-l.jpg">
+                    <img src="images/horses-s.jpg" alt="horsepic">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+</main> 
+</body>
+</html>
